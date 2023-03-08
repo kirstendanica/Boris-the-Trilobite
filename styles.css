@@ -149,3 +149,17 @@ h3 {
     text-align: justify;
     font-size: 20px;
 }
+
+.paleo-bio {
+    height: 400px;
+    width: 550px;
+    float: left;
+    margin: 5px;
+    padding-right: 10px;
+}
+
+figure {
+    display: inline-block;
+    border: 1px white;
+    margin: 20px;
+}
