@@ -163,3 +163,33 @@ figure {
     border: 1px white;
     margin: 20px;
 }
+
+.why-trilobites a {
+    text-decoration: none;
+    color: #637f6f;
+}
+
+.why-trilobites a:hover {
+    color: #736358;
+}
+
+.about-me {
+    overflow: hidden;
+}
+
+.about-me-h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.about-me-img {
+    height: 500px;
+    width: 370px;
+    border-radius: 20px;
+    float: left;
+    margin: 15px;
+}
+
+.about-me p {
+    text-align: justify;
+}
