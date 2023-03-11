@@ -1,5 +1,5 @@
 body {
-    background-color: #e8e4e2;
+    background-color: #d2cac5;
     margin: 50px 30px 50px 30px;
     padding: 30px 40px;
 }
@@ -13,17 +13,17 @@ h3 {
     color: #39312c;
 }
 
-.header {
-    margin: 15px 30px;
-    background-color: white;
-    padding-top: 10px;
-    border-top: 10px solid white;
-    border-radius: 20px;
+#logo {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: 1px white solid;
+    border-radius: 20px 20px 0 0;
+    background: white;
 }
 
 .main {
     border: 10px solid white;
-    margin: 20px 30px;
     background-color: white;
     padding: 30px 20px;
     font-family: 'Lato', sans-serif;
@@ -34,7 +34,8 @@ h3 {
 .navbar {
     background-color: #a6968b;
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    clear: both;
 }
 
 .navbar a {
