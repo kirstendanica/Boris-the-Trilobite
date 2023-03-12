@@ -2,70 +2,77 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Lato&display=swap" rel="stylesheet">    
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&family=Lato&family=Merriweather&display=swap"
+  rel="stylesheet">
 
-    <title>Boris the Trilobite</title>
+
+  <title>Boris the Trilobite</title>
 </head>
 
 <body>
-    <header>
-      <div id="logo">
-        <img src="/resources/images/site-header-rsz.jpg" alt="site header">
+  <header>
+    <div id="logo">
+      <img src="/resources/images/site-header-rsz.jpg" alt="site header">
+    </div>
+    <!-- Navigation  -->
+    <nav>
+      <div class="navbar">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="pages/about.html">About (The Purpose)</a></li>
+          <li><a href="pages/contact.html">Creator & Contact</a></li>
+          <li><a href="pages/trilobites.html">Trilobites</a>
+            <ul class="dropdown">
+              <li><a href="#">Variety & Classification</a></li>
+              <li><a href="#">Distribution</a></li>
+              <li><a href="#">Visual Timeline</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Boris' Blog</a></li>
+          <li><a href="#">Introduction: Simplified</a></li>
+        </ul>
       </div>
-      
-        <nav>
-            <div class="navbar">
-                <a class="active" href="/index.html">Home</a>
-                <a href="./pages/about.html">About (The Purpose)</a>
-                <div class="dropdown">
-                  <button class="dropbtn">Trilobites
-                  <i class="fa fa-caret-down"></i>
-                  </button>
-                  <div class="dropdown-content">
-                    <a href="#">Species</a>
-                    <a href="#">Distribution</a>
-                    <a href="#">Visual Timeline</a>
-                  </div>
-                </div>
-                <a href="./contact.html">Creator & Contact</a>
-            </div>
-        </nav>
-    </header>
-    <!-- Main -->
-    <main class="main">
-            <section class="about-boris">
-              <img class="boris-img" src="./resources/images/boris-main.png" alt="trilobite image">
-              <p>Greetings, mortals of the Holocene Epoch. My name is Boris. I'm a trilobite. Trilobites are extinct marine arthropods
-                that first appeared over 500 million years ago. To put it simply, I am a dead bug - a very old dead bug. 
-                Psh, just because I'm <em>now</em> doesn't mean that "my people" weren't one of the most successful animal
-                groups to ever exist.</p>
-                
-                <p>Just for comparison's sake:
-                Homo sapiens (you humans) have been around for approximately 300,000 years.
-                The human's typical favorite prehistoric creature, the dinosaur, survived for around 165 million years.
-                Us trilobites had the pleasure of living on this planet for nearly <em>300 million years.</p></em>
-              </p>
-              <p>We were also one of the most diverse creatures: over 20,000 different species, and that's just what has been found by you mortals!
-                Speaking of species, I'm an Asaphus kowalewskii trilobite. I try not to be bias of my kind, but it's very difficult
-                when you're perhaps the first animal to have seen the moon (look at my eyes!) More on that can be found
-                over <a href="./pages/trilobites.html">here</a>.
-              </p>
-              <p>Welcome, mortal. While you're having a look around my website, please do make yourself at home!
-                ...But not too at home, you never know when your <a href="#.">Permian extinction</a> will come. Heh.</p>
-            </section>
-    </main>
+    </nav>
+  </header>
 
-    <!-- Footer -->
-    <footer>
+  <!-- Main -->
+  <main class="main">
+    <section class="about-boris">
+      <img class="boris-img" src="./resources/images/boris-main.png" alt="trilobite image">
+      <p>Greetings, mortals of the Holocene Epoch. My name is Boris. I'm a trilobite. Trilobites are extinct marine
+        arthropods
+        that first appeared over 500 million years ago. To put it simply, I am a dead bug - a very old dead bug.
+        Psh, just because I'm <em>now</em> doesn't mean that "my people" weren't one of the most successful animal
+        groups to ever exist.</p>
 
-    </footer>
+      <p>Just for comparison's sake:
+        Homo sapiens (you humans) have been around for approximately 300,000 years.
+        The human's typical favorite prehistoric creature, the dinosaur, survived for around 165 million years.
+        Us trilobites had the pleasure of living on this planet for nearly <em>300 million years.</p></em>
+      </p>
+      <p>We were also one of the most diverse creatures: over 20,000 different species, and that's just what has been
+        found by you mortals!
+        Speaking of species, I'm an Asaphus kowalewskii trilobite. I try not to be bias of my kind, but it's very
+        difficult
+        when you're perhaps the first animal to have seen the moon (look at my eyes!) More on that can be found
+        over <a href="./pages/trilobites.html">here</a>.
+      </p>
+      <p>Welcome, mortal. While you're having a look around my website, please do make yourself at home!
+        ...But not too at home, you never know when your <a href="#.">Permian extinction</a> will come. Heh.</p>
+
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+
+  </footer>
 </body>
 
 </html>

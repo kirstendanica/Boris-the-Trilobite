@@ -2,8 +2,7 @@ body {
     height: 125vh;
 }
 
-h1,
-h3 {
+h1 {
     font-family: 'Jacques Francois Shadow', cursive;
     font-weight: lighter;
     text-align: center;
@@ -25,18 +24,19 @@ h3 {
 }
 
 .main {
-    border: 10px solid white;
     background-color: white;
     font-family: 'Lato', sans-serif;
-    color: #39312c;
+    padding: 50px;
+    margin: 50px;
 }
+
 
 /* Navigation */
 
 nav {
     margin: 0 auto;
     display: block;
-    padding: 120px 0 0 0;
+    padding: 20px 0 0 0;
     text-align: center;
     font-size: 16px;
 }
@@ -50,7 +50,7 @@ nav {
     position: relative;
     text-decoration: none;
     text-align: center;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
 .navbar li a {
@@ -58,7 +58,7 @@ nav {
 }
 
 .navbar li a:hover {
-    color: #637f6f;
+    color: #63737f;
 }
 
 .navbar li:hover {
@@ -75,42 +75,42 @@ nav {
     background: white;
 }
 
-.navbar ul li:hover > ul,
+.navbar ul li:hover>ul,
 ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-  min-width: 250px;
-  text-align: left;
-  padding-top: 20px;
-  box-shadow: 0px 3px 5px -1px #ccc;
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    min-width: 250px;
+    text-align: left;
+    padding-top: 20px;
+    box-shadow: 0px 3px 5px -1px #ccc;
 }
 
 .navbar ul li ul li {
-  clear: both;
-  width: 100%;
-  text-align: left;
-  margin-bottom: 20px;
-  border-style: none;
+    clear: both;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    border-style: none;
 }
 
 .navbar ul li ul li a:hover {
-  padding-left: 10px;
-  border-left: 2px solid #3ca0e7;
-  transition: all 0.3s ease;
+    padding-left: 10px;
+    border-left: 2px solid #63737f;
+    transition: all 0.3s ease;
 }
 
-a {
-
-text-decoration: none;
-
-&:hover {
-    color: #3CA0E7;
+.navbar a {
+    text-decoration: none;
 }
 
+.navbar a:hover {
+    color: #63737f;
 }
 
-ul li ul li a { transition: all 0.5s ease; }
+.navbar ul li ul li a {
+    transition: all 0.5s ease;
+}
 
 
 
@@ -186,13 +186,33 @@ figure {
     color: #736358;
 }
 
+/* Contact & Creator */
+
 .about-me {
     overflow: hidden;
 }
 
+.about-me ul li::marker {
+    color: #637f6f;
+}
 .about-me-h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+}
+
+.about-me-h2 {
+    font-family: 'Merriweather', serif;
+    color: #212121;
+}
+
+.h2-greeting {
+    font-weight: 800;
+    color:#63737f;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+    color: #212121;
 }
 
 .about-me-img {
@@ -211,38 +231,53 @@ figure {
     overflow-x: hidden;
     overflow-y: auto;
     text-align: justify;
-    border: 1px solid black;
-    border-radius: 10px;
     margin: 4px 4px;
     padding: 4px;
 }
 
-.info-scroll {
-    margin: 10px;
-    padding: 10px;
+.my-artwork {
+  padding: 40px 0;
+}
+
+.my-artwork h2 {
+    font-family: 'Merriweather', serif;
+    color: #212121;
+    text-align: center;
 }
 
 .carousel {
-    padding: 1rem;
-    background: white;
-    max-width: 1000px;
-    width: 90vw;
-    margin: auto;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px 70px 5px 20px;
+    background: transparent;
+    height: 100%;
+    border-radius: 15px;
 }
 
 .images-container {
-    display: flex;
-    gap: 20px;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-padding-left: 90px;
-    white-space: nowrap;
+    display: inline-block;
 }
 
 .images-container img {
-    scroll-snap-align: start;
-    height: 281px;
-    width: 500px;
+    margin-right: 22px;
+    max-height: 400px;
+}
+
+.carousel::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.carousel::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #63737f;
 }
 
 /* Scrollbar */
