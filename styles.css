@@ -195,6 +195,7 @@ figure {
 .about-me ul li::marker {
     color: #637f6f;
 }
+
 .about-me-h1 {
     text-align: center;
     font-size: 40px;
@@ -207,7 +208,7 @@ figure {
 
 .h2-greeting {
     font-weight: 800;
-    color:#63737f;
+    color: #63737f;
 }
 
 h3 {
@@ -236,7 +237,7 @@ h3 {
 }
 
 .my-artwork {
-  padding: 40px 0;
+    padding: 40px 0;
 }
 
 .my-artwork h2 {
@@ -245,39 +246,12 @@ h3 {
     text-align: center;
 }
 
-.carousel {
-    overflow: auto;
-    white-space: nowrap;
-    padding: 5px 70px 5px 20px;
-    background: transparent;
-    height: 100%;
-    border-radius: 15px;
-}
-
-.images-container {
-    display: inline-block;
-}
-
-.images-container img {
-    margin-right: 22px;
-    max-height: 400px;
-}
-
-.carousel::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    background-color: #F5F5F5;
-}
-
-.carousel::-webkit-scrollbar {
-    width: 12px;
-    background-color: #F5F5F5;
-}
-
-.carousel::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: #63737f;
+.slideshow {
+    overflow: hidden;
+    width: 2000px;
+    height: 400px;
+    overflow-x: scroll;
+    display: inline-flex;
 }
 
 /* Scrollbar */
@@ -298,3 +272,5 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #637f7d;
 }
+
+/* Footer */
