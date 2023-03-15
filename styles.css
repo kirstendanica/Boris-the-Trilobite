@@ -160,21 +160,23 @@ ul li ul:hover {
 
 .why-trilobites p {
     text-align: justify;
-    font-size: 20px;
+    font-size: 16px;
 }
 
-.paleo-bio {
-    height: 400px;
-    width: 550px;
-    float: left;
-    margin: 5px;
-    padding-right: 10px;
+.why-span {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    color: #39312c;
 }
 
 figure {
-    display: inline-block;
-    border: 1px white;
-    margin: 20px;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+figure img {
+    height: 400px;
+    width: 500px;
 }
 
 .why-trilobites a {
