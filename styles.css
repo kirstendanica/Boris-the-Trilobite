@@ -218,13 +218,15 @@ h3 {
     color: #212121;
 }
 
-.about-me-img {
+.about-me-img-1 {
     height: 450px;
     width: 370px;
     border-radius: 20px;
     float: left;
     margin: 15px;
+    position: relative;
 }
+
 
 .about-me p {
     text-align: justify;
