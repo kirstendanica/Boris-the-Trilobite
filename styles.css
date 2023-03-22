@@ -260,6 +260,28 @@ h3 {
     display: inline-flex;
 }
 
+/* Trilobites */
+
+.side-nav {
+    width: 20%;
+    float: left;
+}
+.side-nav_ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.side-nav_ul li {    
+    margin: 1px 0;
+    border: 1px solid #999;
+}
+.side-nav_ul li a {
+    display: block;
+    line-height: 3em;
+    width: 100%;
+    text-decoration: none;
+}
+
 /* Scrollbar */
 
 body::-webkit-scrollbar-track {
